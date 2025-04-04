@@ -370,7 +370,7 @@ class RandomCommitGenerator:
                 
                 print(f"  [{i+1}/{count}] Commit dated: {date_str}")
         
-        print(f"\n✓ Successfully created {count} commits!")
+        print(f"\n✓ Successfully created {count} commits!") 
 
 # Usage example
 if __name__ == "__main__":
