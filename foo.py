@@ -348,7 +348,7 @@ class RandomCommitGenerator:
         for i in range(count):
             if self.create_commit():
                 # Generate random date within the range
-                random_days = random.randint(0, total_days)
+                random_days = random.randint(0, total_days) 
                 random_hours = random.randint(0, 23)
                 random_minutes = random.randint(0, 59)
                 
