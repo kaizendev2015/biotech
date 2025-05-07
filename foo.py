@@ -299,7 +299,7 @@ class RandomCommitGenerator:
         elif filepath.endswith('.md'):
             return f"<!-- Updated: {datetime.now().strftime('%Y-%m-%d')} -->"
         else:
-            return f"# Updated: {datetime.now().strftime('%Y-%m-%d')}"
+            return f"# Updated: {datetime.now().strftime('%Y-%m-%d')}" 
     
     def create_commit(self, custom_message=None):
         """Create a random commit"""
