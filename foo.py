@@ -310,7 +310,7 @@ class RandomCommitGenerator:
 # Updated: 2025-10-13
             
             # Make a random change
-            if not self.make_random_change(filepath):
+            if not self.make_random_change(filepath): 
                 return False
             
             # Stage the file
