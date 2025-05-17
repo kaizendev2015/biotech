@@ -85,7 +85,7 @@ class RandomCommitGenerator:
             "Simplify nested loops",
             "Reduce code duplication",
             "Consolidate similar functions",
-            "Rename for better clarity",
+            "Rename for better clarity", 
             "Reorganize file structure",
             "Split large component",
             
