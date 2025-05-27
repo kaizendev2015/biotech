@@ -356,7 +356,7 @@ class RandomCommitGenerator:
                 
                 commit_date = start + timedelta(
                     days=random_days,
-                    hours=random_hours,
+                    hours=random_hours, 
                     minutes=random_minutes
                 )
                 
