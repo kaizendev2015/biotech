@@ -33,7 +33,7 @@ class RandomCommitGenerator:
             "Fix failing test",
             "Fix security vulnerability",
             "Fix CSS styling issue",
-            "Fix mobile responsiveness",
+            "Fix mobile responsiveness", 
             "Fix broken build",
             "Fix circular dependency",
             "Fix performance bottleneck",
