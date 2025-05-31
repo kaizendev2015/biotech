@@ -169,7 +169,7 @@ class RandomCommitGenerator:
             # Documentation
             "Document API endpoints",
             "Document component props",
-            "Document function parameters",
+            "Document function parameters", 
             "Document setup instructions",
             "Document deployment process",
             "Document architecture decisions",
