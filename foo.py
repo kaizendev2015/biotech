@@ -266,7 +266,7 @@ class RandomCommitGenerator:
             
             elif change_type == 'add_newline':
                 # Add a newline at the end if it doesn't exist
-                if lines and not lines[-1].endswith('\n'):
+                if lines and not lines[-1].endswith('\n'): 
                     lines[-1] += '\n'
                 else:
                     lines.append('\n')
