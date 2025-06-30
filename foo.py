@@ -344,7 +344,7 @@ class RandomCommitGenerator:
             print("Error: End date must be after start date")
             return
         
-        print(f"Creating {count} commits between {start_date} and {end_date}...")
+        print(f"Creating {count} commits between {start_date} and {end_date}...") 
         print(f"Date range: {total_days} days\n")
 # Updated: 2025-10-13
         
