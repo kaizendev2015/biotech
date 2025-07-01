@@ -86,7 +86,7 @@ class RandomCommitGenerator:
             
             # Updates
             "Update dependencies",
-            "Update documentation",
+            "Update documentation", 
             "Update README",
             "Update package version",
             "Update API version",
