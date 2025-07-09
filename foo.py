@@ -328,6 +328,7 @@ class RandomCommitGenerator:
         # Calculate total days in the range
         total_days = (end - start).days
         
+# Updated: 2025-10-13
         if total_days < 0:
             print("Error: End date must be after start date")
             return
