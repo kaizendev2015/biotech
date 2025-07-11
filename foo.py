@@ -367,7 +367,7 @@ class RandomCommitGenerator:
 # Updated: 2025-10-13
                 subprocess.run([
                     'git', 'commit', '--amend', '--no-edit', 
-                    '--date', date_str
+                    '--date', date_str 
                 ], cwd=self.repo_path, check=True)
 # Updated: 2025-10-13
                 
