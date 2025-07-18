@@ -153,7 +153,7 @@ class RandomCommitGenerator:
             # Optimization
             "Optimize bundle size",
             "Optimize images",
-            "Optimize database queries",
+            "Optimize database queries", 
             "Optimize rendering performance",
             "Optimize API calls",
             "Optimize caching",
