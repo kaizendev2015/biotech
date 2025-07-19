@@ -196,7 +196,7 @@ class RandomCommitGenerator:
             "Revert changes",
             "Hotfix for production",
             "Emergency patch",
-            "Quick fix",
+            "Quick fix", 
             "Temporary workaround",
             "WIP: work in progress",
             "Initial commit",
