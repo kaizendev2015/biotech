@@ -300,7 +300,7 @@ class RandomCommitGenerator:
             return f"# Updated: {datetime.now().strftime('%Y-%m-%d')}"
         elif filepath.endswith(('.js', '.ts')):
             return f"// Updated: {datetime.now().strftime('%Y-%m-%d')}"
-        elif filepath.endswith('.md'):
+        elif filepath.endswith('.md'): 
             return f"<!-- Updated: {datetime.now().strftime('%Y-%m-%d')} -->"
         else:
             return f"# Updated: {datetime.now().strftime('%Y-%m-%d')}" 
