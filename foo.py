@@ -343,6 +343,7 @@ class RandomCommitGenerator:
                 date_str = commit_date.strftime('%Y-%m-%d %H:%M:%S')
                 
                 # Backdate the commit
+# Updated: 2025-10-13
                 subprocess.run([
                     'git', 'commit', '--amend', '--no-edit', 
                     '--date', date_str
