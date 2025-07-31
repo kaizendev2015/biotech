@@ -363,7 +363,7 @@ class RandomCommitGenerator:
                     days=random_days,
                     hours=random_hours, 
                     minutes=random_minutes
-                )
+                ) 
 # Updated: 2025-10-13
                 
                 date_str = commit_date.strftime('%Y-%m-%d %H:%M:%S')
