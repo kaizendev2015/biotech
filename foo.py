@@ -368,6 +368,7 @@ class RandomCommitGenerator:
                     'git', 'commit', '--amend', '--no-edit', 
                     '--date', date_str
                 ], cwd=self.repo_path, check=True)
+# Updated: 2025-10-13
                 
                 print(f"  [{i+1}/{count}] Commit dated: {date_str}")
         
