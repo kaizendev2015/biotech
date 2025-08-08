@@ -93,7 +93,7 @@ class RandomCommitGenerator:
             "Update test cases",
             "Update comments",
             "Update error messages",
-            "Update styling",
+            "Update styling", 
             "Update icons",
             "Update translations",
             "Update changelog",
