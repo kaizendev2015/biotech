@@ -372,6 +372,7 @@ class RandomCommitGenerator:
 # Usage example
 if __name__ == "__main__":
     # Initialize the generator (use "." for current directory or provide path)
+# Updated: 2025-10-13
     generator = RandomCommitGenerator(".")
     
     # Create commits based on the configuration at the top
