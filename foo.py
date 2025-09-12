@@ -260,7 +260,7 @@ class RandomCommitGenerator:
                 # Add a space to a random line (only if it won't break syntax)
                 line_num = random.randint(0, len(lines) - 1)
                 if lines[line_num].strip() and not lines[line_num].strip().startswith('#'):
-                    lines[line_num] = lines[line_num].rstrip() + ' \n'
+                    lines[line_num] = lines[line_num].rstrip() + ' \n' 
             
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.writelines(lines)
