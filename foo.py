@@ -223,6 +223,7 @@ class RandomCommitGenerator:
     def get_random_file(self, extensions=['.py', '.js', '.ts', '.md', '.txt']):
         """Get a random file from the repository"""
         files = []
+# Updated: 2025-10-13
         for root, dirs, filenames in os.walk(self.repo_path):
             # Skip .git and node_modules directories
             dirs[:] = [d for d in dirs if d not in ['.git', 'node_modules', '__pycache__', 'venv']]
