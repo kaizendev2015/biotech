@@ -181,7 +181,7 @@ class RandomCommitGenerator:
             "Document component props",
             "Document function parameters", 
             "Document setup instructions",
-            "Document deployment process",
+            "Document deployment process", 
             "Document architecture decisions",
             "Document breaking changes",
             "Add inline documentation",
